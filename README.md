@@ -1,46 +1,62 @@
 # Retail Sales Analytics
+![Excel](https://img.shields.io/badge/Excel-Analysis-green)
+![SQL](https://img.shields.io/badge/SQL-SQLite-blue)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)
 
-## Project Overview
-
-This project analyzes retail sales data from the Superstore dataset to identify trends in sales, profitability, customer behavior, and regional performance.
-
-The project demonstrates a complete analytics workflow using Microsoft Excel and SQL, from data cleaning to business insights.
+An end-to-end data analytics project analyzing retail sales performance using Microsoft Excel and SQL. This project transforms raw transactional data into actionable business insights through data cleaning, exploratory analysis, dashboard creation, and SQL-based reporting.
 
 ---
 
-## Business Problem
+# Project Overview
 
-Retail businesses generate thousands of transactions every year, making it difficult to quickly identify:
+This project analyzes the Sample Superstore dataset to identify trends in sales, profitability, customer behavior, and regional performance.
 
-- Which products generate the most revenue
+The analysis follows a complete analytics workflow—from cleaning raw data to building dashboards and answering business questions with SQL. The goal is to demonstrate practical data analyst skills that support data-driven decision-making.
+
+---
+
+# Business Problem
+
+Retail businesses generate thousands of transactions across products, customers, and regions. Without proper analysis, it is difficult to identify:
+
+- Which product categories generate the most revenue
+- Which products are the most profitable
+- Which customer segments drive the most sales
 - Which regions perform best
-- Which customer segments contribute the most sales
+- How sales change over time
 - Where profitability can be improved
 
-The goal of this project was to transform raw sales data into meaningful business insights that support business decision-making.
+This project transforms raw sales data into meaningful insights that support strategic business decisions.
 
 ---
 
-## Tools Used
+# Tools Used
 
-- Microsoft Excel
-  - Data Cleaning
-  - Data Profiling
-  - Pivot Tables
-  - Dashboard Development
+### Microsoft Excel
 
-- SQLite
-  - Data Import
-  - SQL Queries
-  - Business Analysis
+- Data Cleaning
+- Data Validation
+- Data Profiling
+- Pivot Tables
+- Exploratory Data Analysis (EDA)
+- Dashboard Development
 
-- Visual Studio Code
-  - SQL Development
-  - Project Documentation
+### SQLite
+
+- Database Creation
+- Data Import
+- SQL Query Development
+- Business Analysis
+
+### Visual Studio Code
+
+- SQL Development
+- Project Documentation
+- GitHub Project Organization
 
 ---
 
-## Dataset
+# Dataset
 
 **Dataset:** Sample Superstore
 
@@ -52,7 +68,33 @@ The goal of this project was to transform raw sales data into meaningful busines
 
 ---
 
-## Project Workflow
+# Dashboard Preview
+
+## Excel Dashboard
+
+![Excel Dashboard](Images/Excel_Dashboard.png)
+
+---
+
+## Customer & Regional Analysis
+
+![Customer & Regional Analysis](Images/Customer_Regional_Analysis.png)
+
+---
+
+## Data Profiling
+
+![Data Profiling](Images/Data_Profiling.png)
+
+---
+
+## SQL Business Analysis
+
+![SQL Analysis](Images/SQL_Analysis.png)
+
+---
+
+# Project Workflow
 
 1. Data Cleaning
 2. Data Profiling
@@ -64,28 +106,50 @@ The goal of this project was to transform raw sales data into meaningful busines
 
 ---
 
-## Key Business Questions
+# Key Business Questions
 
 - Which product categories generate the highest sales?
-- Which categories are the most profitable?
+- Which product categories generate the highest profit?
 - Which customer segments contribute the most revenue?
-- Which regions perform the best?
+- Which regions generate the highest sales and profit?
 - How have sales changed over time?
-- What opportunities exist to improve profitability?
+- Which products generate the most revenue?
+- Which customers generate the highest sales?
+- Which shipping methods are used most frequently?
+- Where can profitability be improved?
 
 ---
 
-## Key Findings
+# Key Findings
 
 - Technology generated the highest sales revenue.
-- Technology generated the highest overall profit.
-- The West region produced the highest sales.
-- Sales consistently increased from 2014 through 2017.
-- Furniture generated strong revenue but comparatively lower profitability.
+- Technology also generated the highest overall profit.
+- The West region produced the highest sales and profit.
+- Consumer customers generated the largest share of revenue.
+- Sales steadily increased between 2014 and 2017.
+- Furniture generated strong revenue but significantly lower profitability.
+- Standard Class shipping accounted for the majority of sales.
+- Higher furniture discounts may be contributing to lower profit margins.
 
 ---
 
-## Project Structure
+# Business Impact
+
+This project demonstrates how raw transactional data can be transformed into actionable business insights.
+
+The analysis helps identify:
+
+- High-performing product categories
+- Valuable customer segments
+- Strong and weak regional markets
+- Sales trends over time
+- Opportunities to improve profitability through pricing and discount strategies
+
+These insights can support inventory planning, marketing decisions, customer targeting, and operational improvements.
+
+---
+
+# Project Structure
 
 ```text
 Retail-Sales-Analytics
@@ -105,6 +169,10 @@ Retail-Sales-Analytics
 │   └── Retail Sales Analysis.xlsx
 │
 ├── Images
+│   ├── Excel_Dashboard.png
+│   ├── Customer_Regional_Analysis.png
+│   ├── Data_Profiling.png
+│   └── SQL_Analysis.png
 │
 ├── SQL
 │   ├── queries.sql
@@ -116,33 +184,70 @@ Retail-Sales-Analytics
 
 ---
 
-## Skills Demonstrated
+# Skills Demonstrated
 
+### Data Analytics
 - Data Cleaning
 - Data Validation
-- Exploratory Data Analysis
+- Data Profiling
+- Exploratory Data Analysis (EDA)
+
+### Microsoft Excel
 - Pivot Tables
 - Dashboard Design
-- SQL Querying
-- Business Analysis
-- Documentation
-- GitHub Project Organization
+- KPI Development
+- Data Visualization
+
+### SQL
+- SQLite
+- SQL Query Development
+- Aggregate Functions
+- GROUP BY
+- Business Reporting
+
+### Business Analysis
+- Business Intelligence
+- Executive Reporting
+- Business Insights
+- Data-Driven Decision Making
+
+### Technical Skills
+- Visual Studio Code
+- Git
+- GitHub
+- Technical Documentation
+
+
+
 
 ---
 
-## Future Improvements
+# Future Improvements
 
-- Build an interactive Power BI dashboard
-- Add predictive sales forecasting
-- Perform customer segmentation with Python
-- Create additional KPI dashboards
+- Develop an interactive Power BI dashboard
+- Build predictive sales forecasting models
+- Perform customer segmentation using Python
+- Create automated KPI reporting
+- Connect the dashboard to a live database
+- Add advanced statistical analysis
 
 ---
 
-## Author
+# Author
 
 **Ansh Patel**
 
 Bachelor of Business Administration – Information Systems
 
-GitHub Portfolio Project
+### Connect
+
+- GitHub: *(https://github.com/apate304)*
+- LinkedIn: *(https://www.linkedin.com/in/anshpatel2/)*
+
+---
+
+## Project Status
+
+✅ Completed
+
+This project serves as a portfolio piece demonstrating end-to-end data analysis using Excel and SQL, including data preparation, visualization, SQL querying, business analysis, and technical documentation.
